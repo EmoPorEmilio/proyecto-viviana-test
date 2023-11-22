@@ -6,9 +6,7 @@ interface ItemProps {
 const Item = ({ children, ...props }: ItemProps) => {
   return (
     <li className='flex items-center'>
-      <span className='text-lg text-light-primary font-bold'>
-        {props.title}
-      </span>
+      <span className='text-lg text-primary-200 font-bold'>{props.title}</span>
       {children}
     </li>
   );

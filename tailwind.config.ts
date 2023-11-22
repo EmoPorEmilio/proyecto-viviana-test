@@ -13,9 +13,11 @@ const config: Config = {
       'darkest-bg': '#1D272E',
       accent: '#DF5C9A',
       white: '#FFFFFF',
-      'lightest-primary': '#D9F2FF',
-      'light-primary': '#D0E9F5',
-      'dark-primary': '#58748B',
+      'primary-100': '#D9F2FF',
+      'primary-200': '#D0E9F5',
+      'primary-300': '#58748B',
+      'primary-400': '#4F6D85',
+      'primary-500': '#4C6477',
     },
     extend: {
       dropShadow: {
