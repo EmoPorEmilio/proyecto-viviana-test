@@ -16,6 +16,7 @@ const config: Config = {
       'primary-100': '#D9F2FF',
       'primary-200': '#D0E9F5',
       'primary-400': '#ADCCDC',
+      'primary-500': '#75ABC7',
       'primary-600': '#58748B',
       'primary-700': '#4F6D85',
       'primary-800': '#4C6477',
@@ -23,6 +24,7 @@ const config: Config = {
     extend: {
       dropShadow: {
         title: '0 2px #DF5C9A',
+        'primary-button': '0px 2px #75ABC7',
       },
     },
   },

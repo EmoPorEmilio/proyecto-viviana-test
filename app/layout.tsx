@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
-import { Jost } from 'next/font/google';
 import './globals.css';
-
-const jost = Jost({ subsets: ['latin'] });
+import { jost } from './fonts';
 
 export const metadata: Metadata = {
   title: 'Docs Proyecto Viviana',
