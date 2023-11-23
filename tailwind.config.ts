@@ -24,7 +24,9 @@ const config: Config = {
     extend: {
       dropShadow: {
         title: '0 2px #DF5C9A',
-        'primary-button': '0px 2px #75ABC7',
+      },
+      boxShadow: {
+        'primary-chip': '0px 1px #75ABC7',
       },
     },
   },
