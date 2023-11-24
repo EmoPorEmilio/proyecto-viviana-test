@@ -7,7 +7,7 @@ const Content = () => {
   return (
     <div className='bg-bg flex h-full'>
       <LateralNav />
-      <div className='flex flex-col flex-1 p-10'>
+      <div className='flex flex-col justify-center flex-1'>
         <Dialog />
         <div></div>
       </div>

@@ -11,7 +11,7 @@ const config: Config = {
       bg: '#3B5260',
       'dark-bg': '#293E4B',
       'darkest-bg': '#1D272E',
-      accent: '#DF5C9A',
+      'accent-500': '#DF5C9A',
       white: '#FFFFFF',
       'gray-100': '#C0C6CA',
       'primary-100': '#D9F2FF',
