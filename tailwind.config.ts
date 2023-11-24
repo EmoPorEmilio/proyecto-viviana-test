@@ -13,6 +13,7 @@ const config: Config = {
       'darkest-bg': '#1D272E',
       accent: '#DF5C9A',
       white: '#FFFFFF',
+      'gray-100': '#C0C6CA',
       'primary-100': '#D9F2FF',
       'primary-200': '#D0E9F5',
       'primary-400': '#ADCCDC',

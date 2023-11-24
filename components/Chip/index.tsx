@@ -1,3 +1,5 @@
+import { sen } from '@/app/fonts';
+
 export enum ChipType {
   Primary = 'primary',
 }
@@ -19,7 +21,9 @@ export const Chip = ({ onClick, type, children }: ButtonProps) => {
   };
   return (
     <button
-      className={` ${chipnDynamicClass()} w-auto rounded-full px-5 py-1 font-medium text-sm tracking-wide`}>
+      className={` ${
+        sen.className
+      } ${chipnDynamicClass()} w-auto rounded-full px-4  py-1 font-medium text-sm tracking-wide`}>
       {children}
     </button>
   );
