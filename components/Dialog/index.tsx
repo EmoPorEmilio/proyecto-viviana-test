@@ -3,7 +3,10 @@ import { Button, ButtonType } from '@/components/Button';
 import { Chip, ChipType } from '@/components/Chip';
 
 const Dialog = () => (
-  <div className='flex flex-col w-[540px] h-[350px] items-center'>
+  <div className='flex flex-col w-[540px] h-[350px]'>
+    <span className='relative top-4 left-10 text-4xl font-extrabold text-transparent	bg-clip-text bg-gradient-to-b from-primary-100 to-primary-500'>
+      main.rs
+    </span>
     <div className='flex flex-col w-[500px] justify-end h-[50px] rounded-t-[26px] bg-primary-800 '>
       <div className='flex flex-col justify-end h-[40px] rounded-t-[30px] bg-primary-600'>
         <div className='flex items-center justify-end h-[20px] rounded-t-[100px] bg-primary-700 pr-4'>

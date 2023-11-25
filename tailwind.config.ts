@@ -8,6 +8,7 @@ const config: Config = {
   ],
   theme: {
     colors: {
+      transparent: 'transparent',
       bg: '#3B5260',
       'dark-bg': '#293E4B',
       'darkest-bg': '#1D272E',
@@ -15,6 +16,7 @@ const config: Config = {
       'accent-500': '#DF5C9A',
       white: '#FFFFFF',
       'gray-100': '#C0C6CA',
+      'gray-200': '#A2AEB4',
       'primary-100': '#D9F2FF',
       'primary-200': '#D0E9F5',
       'primary-300': '#ADCCDC',
@@ -26,6 +28,7 @@ const config: Config = {
     extend: {
       dropShadow: {
         title: '0 2px #DF5C9A',
+        'title-primary': '0 4px #58748B',
       },
       boxShadow: {
         'primary-chip': '0px 1px #75ABC7',
