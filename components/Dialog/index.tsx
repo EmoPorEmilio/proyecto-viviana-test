@@ -39,7 +39,7 @@ const Dialog = () => (
         </div>
       </div>
     </div>
-    <div className='relative bottom-4 right-4 w-full'>
+    <div className='relative bottom-4 right-4 md:w-[500px]'>
       <div className='flex flex-row justify-end gap-2 pr-4'>
         <Chip
           type={ChipType.Primary}
