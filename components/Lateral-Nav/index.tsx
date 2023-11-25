@@ -1,4 +1,3 @@
-import { sen } from '@/app/fonts';
 import Item from './Item';
 
 const LateralNav = () => {
