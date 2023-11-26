@@ -11,10 +11,10 @@ const LateralNav = () => {
             ¿Qué es Axum?
           </span>
           <span className='text-gray-200 font-normal'>Test</span>
-          <span>Test</span>
-          <span>Test</span>
-          <span>Test</span>
-          <span>Test</span>
+          <span className='text-gray-200 font-normal'>Test</span>
+          <span className='text-gray-200 font-normal'>Test</span>
+          <span className='text-gray-200 font-normal'>Test</span>
+          <span className='text-gray-200 font-normal'>Test</span>
         </div>
       </div>
     </div>

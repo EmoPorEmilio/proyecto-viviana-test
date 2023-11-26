@@ -1,4 +1,5 @@
 import HamburgerMenuIcon from '@/app/icons/Icon';
+import Link from 'next/link';
 
 const Header = () => (
   <nav className='flex items-center bg-bg-400 h-[70px] border-bottom border-solid border-b-4 border-accent-500'>
@@ -9,9 +10,9 @@ const Header = () => (
       Tutorial Axum
     </h1>
 
-    <div className='md:hidden flex flex-1 justify-end pr-8'>
+    <Link href='/menu' className='md:hidden flex flex-1 justify-end pr-8'>
       <HamburgerMenuIcon size={16} />
-    </div>
+    </Link>
   </nav>
 );
 
