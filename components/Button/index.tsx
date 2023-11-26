@@ -36,7 +36,7 @@ export const Button = ({ onClick, type, children }: ButtonProps) => {
   };
   return (
     <button
-      className={`tracking-wider ${buttonDynamicClass()} w-auto rounded-lg px-4 py-2 `}>
+      className={`whitespace-nowrap	 tracking-wider ${buttonDynamicClass()} w-auto rounded-lg px-4 py-2 `}>
       {children}
     </button>
   );
