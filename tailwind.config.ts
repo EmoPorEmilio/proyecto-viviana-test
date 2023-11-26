@@ -30,7 +30,7 @@ const config: Config = {
         'success-100': '#E5FFF3',
         'success-400': '#C2FFC8',
         'success-600': '#559D87',
-        'danger-100': '#FFDCDC',
+        'danger-100': '#FFE5E5',
         'danger-400': '#FF8787',
         'danger-600': '#9D5555',
       },
