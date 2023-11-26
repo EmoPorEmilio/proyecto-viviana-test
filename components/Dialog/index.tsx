@@ -16,7 +16,7 @@ const Dialog = () => (
         </div>
       </div>
     </div>
-    <div className='flex flex-col mt-1 md:w-[500px] h-[300px] rounded-t-lg rounded-b-[26px] bg-darkest-bg border-accent-500 border-solid border-b'>
+    <div className='flex flex-col mt-1 md:w-[500px] h-[300px] rounded-t-lg rounded-b-[26px] bg-bg-300 border-accent-500 border-solid border-b'>
       <div className='flex flex-col flex-1 p-4'>
         <span className={`${sen.className} text-gray-100 text-lg`}>
           Esto es un test de texto! Esto es un test de texto!

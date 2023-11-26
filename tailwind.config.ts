@@ -9,9 +9,11 @@ const config: Config = {
   theme: {
     colors: {
       transparent: 'transparent',
-      bg: '#3B5260',
-      'dark-bg': '#293E4B',
-      'darkest-bg': '#1D272E',
+      'bg-100': '#3B5260',
+      'bg-200': '#293E4B',
+      'bg-300': '#24313a',
+      'bg-400': '#1D272E',
+      'accent-200': '#FFB2D7',
       'accent-300': '#FF88C0',
       'accent-500': '#DF5C9A',
       white: '#FFFFFF',
@@ -24,6 +26,12 @@ const config: Config = {
       'primary-600': '#58748B',
       'primary-700': '#4F6D85',
       'primary-800': '#4C6477',
+      'success-100': '#E5FFF3',
+      'success-400': '#C2FFC8',
+      'success-600': '#559D87',
+      'danger-100': '#FFDCDC',
+      'danger-400': '#FF8787',
+      'danger-600': '#9D5555',
     },
     extend: {
       dropShadow: {

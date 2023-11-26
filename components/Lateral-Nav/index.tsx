@@ -2,7 +2,7 @@ import Item from './Item';
 
 const LateralNav = () => {
   return (
-    <div className='hidden md:block w-[300px] bg-dark-bg border-r border-primary-600 p-3 m-0'>
+    <div className='hidden md:block w-[300px] bg-bg-200 border-r border-primary-600 p-3 m-0'>
       <Item title='Comenzando'></Item>
       <div className='flex h-full'>
         <div className='w-1 h-5 bg-accent-300'></div>
