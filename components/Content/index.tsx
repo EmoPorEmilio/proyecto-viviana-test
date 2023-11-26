@@ -52,7 +52,7 @@ const Content = () => {
               console.log('test1');
             }}>
             <a href='/test' className='w-auto'>
-              Botón Link
+              BOTÓN LINK
             </a>
           </Button>
         </div>

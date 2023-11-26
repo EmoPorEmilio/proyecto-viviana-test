@@ -31,7 +31,7 @@ export const Button = ({ onClick, type, children }: ButtonProps) => {
       case ButtonType.Success:
         return 'font-regular  bg-success-600 text-success-100 border-solid border border-success-400';
       case ButtonType.Link:
-        return 'font-regular text-danger-500 text-accent-200 underline underline-offset-2';
+        return 'font-regular text-danger-500 text-accent-200';
     }
   };
   return (
