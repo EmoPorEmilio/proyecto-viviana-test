@@ -1,6 +1,7 @@
 import LateralNav from '@/components/Lateral-Nav';
 import Dialog from '@/components/Chip/Dialog';
 import { Button, ButtonType } from '@/components/Button';
+import Switch from '@/components/Switch';
 
 const Content = () => {
   return (
@@ -56,6 +57,8 @@ const Content = () => {
             </a>
           </Button>
         </div>
+        <br />
+        <Switch />
       </div>
     </div>
   );
