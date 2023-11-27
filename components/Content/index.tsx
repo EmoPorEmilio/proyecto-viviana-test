@@ -1,5 +1,5 @@
 import LateralNav from '@/components/Lateral-Nav';
-import Dialog from '@/components/Dialog';
+import Dialog from '@/components/Chip/Dialog';
 import { Button, ButtonType } from '@/components/Button';
 
 const Content = () => {

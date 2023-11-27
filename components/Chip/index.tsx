@@ -21,9 +21,7 @@ export const Chip = ({ onClick, type, children }: ButtonProps) => {
   };
   return (
     <button
-      className={` ${
-        sen.className
-      } ${chipnDynamicClass()} w-auto rounded-full px-4  py-1 font-medium text-sm tracking-wide`}>
+      className={`  ${chipnDynamicClass()} w-auto rounded-full px-4  py-1 font-medium text-sm tracking-wide`}>
       {children}
     </button>
   );
