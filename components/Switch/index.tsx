@@ -2,8 +2,8 @@
 import { useState } from 'react';
 
 const Switch = () => {
-  const leftSelectedStyle = 'left-0 w-[140px] border-l-2';
-  const rightSelectedStyle = 'left-[140px] w-[110px] border-r-2';
+  const leftSelectedStyle = 'left-0 w-[142px] border-l-2';
+  const rightSelectedStyle = 'left-[142px] w-[108px] border-r-2';
   const textSelected = 'font-extrabold text-primary-300 ';
   const textUnselected = 'font-medium text-primary-600 tracking-wider ';
   const [leftSelected, setLeftSelected] = useState(true);
