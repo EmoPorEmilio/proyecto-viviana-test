@@ -1,5 +1,6 @@
 'use client';
 import { IconType } from '../types';
+import { MdMenu } from 'react-icons/md';
 
 interface IconProps {
   type?: IconType;
@@ -15,8 +16,6 @@ export const HamburgerMenuIcon = ({
   onClick,
   type = IconType.BORDERLESS,
 }: IconProps) => {
-  let width = 31;
-  let height = 21;
   const fullStyle = 'bg-bg-400 border-2 border-primary-700 ';
   const outlineStyle = 'border-2 ';
   const style =
@@ -30,30 +29,10 @@ export const HamburgerMenuIcon = ({
       className={`${style} flex h-[50px] w-[50px] rounded-full border-primary-700 justify-center items-center`}>
       <div className='flex justify-center items-center'>
         <div className='absolute z-10 mt-[-1px]'>
-          <svg
-            onClick={() => (onClick ? onClick() : null)}
-            width={width}
-            height={height}
-            viewBox='0 0 31 21'
-            fill='none'>
-            <path
-              d='M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z'
-              fill='#75ABC7'
-            />
-          </svg>
+          <MdMenu color='#75ABC7' size='40px' />
         </div>
-        <div className='absolute z-0 mt-[2px]'>
-          <svg
-            onClick={() => (onClick ? onClick() : null)}
-            width={width}
-            height={height}
-            viewBox='0 0 31 21'
-            fill='none'>
-            <path
-              d='M0.125 20.75H30.875V17.3333H0.125V20.75ZM0.125 12.2083H30.875V8.79167H0.125V12.2083ZM0.125 0.25V3.66667H30.875V0.25H0.125Z'
-              fill='#DF5C9A'
-            />
-          </svg>
+        <div className='absolute z-0 mt-[3px]'>
+          <MdMenu color='#DF5C9A' size='40px' />
         </div>
       </div>
     </div>
