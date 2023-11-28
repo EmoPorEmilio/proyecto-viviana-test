@@ -2,6 +2,8 @@ import LateralNav from '@/components/Lateral-Nav';
 import Dialog from '@/components/Chip/Dialog';
 import { Button, ButtonType } from '@/components/Button';
 import Switch from '@/components/Switch';
+import { HamburgerMenuIcon } from '@/components/Icon';
+import { IconType } from '../types';
 
 const Content = () => {
   return (
@@ -59,6 +61,11 @@ const Content = () => {
         </div>
         <br />
         <Switch />
+        <div className='flex flex-wrap justify-center gap-5'>
+          <HamburgerMenuIcon type={IconType.FULL} size={16} />
+          <HamburgerMenuIcon type={IconType.OUTLINE} size={16} />
+          <HamburgerMenuIcon type={IconType.BORDERLESS} size={16} />
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,3 @@
-import { sen } from '@/app/fonts';
 export enum ButtonType {
   Primary = 'primary',
   Secondary = 'secondary',

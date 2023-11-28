@@ -1,4 +1,4 @@
-import HamburgerMenuIcon from '@/app/icons/Icon';
+import { HamburgerMenuIcon } from '@/components/Icon';
 import Link from 'next/link';
 
 const Header = () => (
