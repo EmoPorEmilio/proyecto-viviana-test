@@ -1,6 +1,6 @@
 import LateralNav from '@/components/Lateral-Nav';
 import Dialog from '@/components/Chip/Dialog';
-import Card from '@/components/Card';
+import { Card1, Card2 } from '@/components/Card';
 import Badge from '@/components/Badge';
 import { Button, ButtonType } from '@/components/Button';
 import Switch from '@/components/Switch';
@@ -21,6 +21,10 @@ const Content = () => {
           Este es un ejemplo de documentación.
         </span>
         <br />
+        <br />
+        <div className=''>
+          <Card1 />
+        </div>
         <br />
         <Dialog />
         <div className='flex flex-wrap justify-center gap-5'>
@@ -86,10 +90,6 @@ const Content = () => {
           <Alert type={AlertType.Success} onClick={() => console.log('test')}>
             Esto es un ejemplo de alerta.
           </Alert>
-        </div>
-        <br />
-        <div className=''>
-          <Card />
         </div>
         <br />
         <div className=''>
