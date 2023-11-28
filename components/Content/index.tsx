@@ -4,6 +4,7 @@ import { Button, ButtonType } from '@/components/Button';
 import Switch from '@/components/Switch';
 import { HamburgerMenuIcon } from '@/components/Icon';
 import { IconType } from '../types';
+import { Alert, AlertType } from '../Alert';
 
 const Content = () => {
   return (
@@ -65,6 +66,24 @@ const Content = () => {
           <HamburgerMenuIcon type={IconType.FULL} size={16} />
           <HamburgerMenuIcon type={IconType.OUTLINE} size={16} />
           <HamburgerMenuIcon type={IconType.BORDERLESS} size={16} />
+        </div>
+        <br />
+        <div className=''>
+          <Alert type={AlertType.Primary} onClick={() => console.log('test')}>
+            Esto es un ejemplo de alerta.
+          </Alert>
+          <br />
+          <Alert type={AlertType.Secondary} onClick={() => console.log('test')}>
+            Esto es un ejemplo de alerta.
+          </Alert>
+          <br />
+          <Alert type={AlertType.Danger} onClick={() => console.log('test')}>
+            Esto es un ejemplo de alerta.
+          </Alert>
+          <br />
+          <Alert type={AlertType.Success} onClick={() => console.log('test')}>
+            Esto es un ejemplo de alerta.
+          </Alert>
         </div>
       </div>
     </div>
