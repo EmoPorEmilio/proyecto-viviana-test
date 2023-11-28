@@ -1,8 +1,14 @@
 import Item from './Item';
 
-const LateralNav = () => {
+interface LateralNavProps {
+  transparent?: boolean;
+}
+
+const LateralNav = ({ transparent = false }: LateralNavProps) => {
+  const bgColor = transparent ? '' : 'bg-bg-200';
   return (
-    <div className='hidden md:block w-[300px] bg-bg-200 border-r border-primary-600 p-3 m-0'>
+    <div
+      className={`hidden md:block w-[300px] ${bgColor} border-r border-primary-600 p-3 m-0`}>
       <Item title='Comenzando'></Item>
       <div className='flex h-full'>
         <div className='w-1 h-5 bg-accent-300'></div>

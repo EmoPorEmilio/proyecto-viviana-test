@@ -86,6 +86,7 @@ const Content = () => {
           </Alert>
         </div>
       </div>
+      <LateralNav transparent={true} />
     </div>
   );
 };
