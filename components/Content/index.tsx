@@ -1,5 +1,7 @@
 import LateralNav from '@/components/Lateral-Nav';
 import Dialog from '@/components/Chip/Dialog';
+import Card from '@/components/Card';
+import Badge from '@/components/Badge';
 import { Button, ButtonType } from '@/components/Button';
 import Switch from '@/components/Switch';
 import { HamburgerMenuIcon } from '@/components/Icon';
@@ -84,6 +86,14 @@ const Content = () => {
           <Alert type={AlertType.Success} onClick={() => console.log('test')}>
             Esto es un ejemplo de alerta.
           </Alert>
+        </div>
+        <br />
+        <div className=''>
+          <Card />
+        </div>
+        <br />
+        <div className=''>
+          <Badge />
         </div>
       </div>
       <LateralNav transparent={true} />
