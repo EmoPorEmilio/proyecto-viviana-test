@@ -15,17 +15,17 @@ const Switch = () => {
         className={`${
           leftSelected ? leftSelectedStyle : rightSelectedStyle
         } transition-all  duration-500 ease-in-out z-0 absolute bg-primary-600 rounded-full h-8 border-accent-300`}></div>
-      <div className='flex z-10 h-8 justify-center'>
+      <div className='flex z-10 h-8 justify-around'>
         <button
           className={`${
             leftSelected ? textSelected : textUnselected
-          } transition-all ease-in-out duration-500 z-10 w-[140px] text-lg flex justify-center items-center`}>
+          } transition-all ease-in-out duration-500 z-10 text-lg flex justify-center items-center`}>
           <span>TENDENCIAS</span>
         </button>
         <button
           className={`${
             leftSelected ? textUnselected : textSelected
-          } transition-all ease-in-out  duration-500 z-10 w-[110px] text-lg flex justify-center items-center`}>
+          } transition-all ease-in-out  duration-500 z-10 text-lg flex justify-center items-center`}>
           <span>ÚLTIMOS</span>
         </button>
       </div>
