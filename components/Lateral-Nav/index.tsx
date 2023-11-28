@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Item from './Item';
 
 interface LateralNavProps {
@@ -21,6 +22,11 @@ const LateralNav = ({ transparent = false }: LateralNavProps) => {
           <span className='text-gray-200 font-normal'>Test</span>
           <span className='text-gray-200 font-normal'>Test</span>
           <span className='text-gray-200 font-normal'>Test</span>
+          <Link
+            className='text-gray-200 font-normal hover:text-gray-100 hover:underline underline-offset-4'
+            href='/mobile'>
+            Mobile
+          </Link>
         </div>
       </div>
     </div>
