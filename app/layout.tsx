@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { jost } from './fonts';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: 'Docs Proyecto Viviana',
@@ -17,6 +18,8 @@ export default function RootLayout({
     <html lang='en'>
       <body className={`${jost.className} bg-bg-100 m-0 h-screen`}>
         {children}
+
+        <Analytics />
       </body>
     </html>
   );
