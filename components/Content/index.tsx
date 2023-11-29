@@ -2,6 +2,7 @@ import LateralNav from '@/components/Lateral-Nav';
 import Dialog from '@/components/Chip/Dialog';
 import { Card1, Card2 } from '@/components/Card';
 import Badge from '@/components/Badge';
+import { sen } from '@/app/fonts';
 import { Button, ButtonType } from '@/components/Button';
 import Switch from '@/components/Switch';
 import { HamburgerMenuIcon } from '@/components/Icon';
@@ -12,12 +13,15 @@ const Content = () => {
   return (
     <div className='bg-bg-100 flex h-full'>
       <LateralNav />
-      <div className='flex flex-col md:p-9 p-4 flex-1'>
-        <h1 className='font-semibold text-primary-100 text-4xl drop-shadow-title-primary'>
+      <div className={'flex flex-col md:p-9 p-4 flex-1'}>
+        <h1
+          className={
+            'font-semibold text-primary-100 text-4xl drop-shadow-title-primary'
+          }>
           ¿Qué es Axum?
         </h1>
         <br />
-        <span className='text-lg text-primary-300'>
+        <span className={`${sen.className} text-lg text-primary-300`}>
           Este es un ejemplo de documentación.
         </span>
         <br />

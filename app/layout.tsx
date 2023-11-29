@@ -18,7 +18,6 @@ export default function RootLayout({
     <html lang='en'>
       <body className={`${jost.className} bg-bg-100 m-0 h-screen`}>
         {children}
-
         <Analytics />
       </body>
     </html>
