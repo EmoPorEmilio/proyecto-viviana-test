@@ -1,3 +1,4 @@
+'use client';
 import LateralNav from '@/components/Lateral-Nav';
 import Dialog from '@/components/Chip/Dialog';
 import { Card1, Card2 } from '@/components/Card';
@@ -5,9 +6,11 @@ import Badge from '@/components/Badge';
 import { sen } from '@/app/fonts';
 import { Button, ButtonType } from '@/components/Button';
 import Switch from '@/components/Switch';
-import { HamburgerMenuIcon } from '@/components/Icon';
+import { Icon } from '@/components/Icon';
 import { IconType } from '../types';
-import { Alert, AlertType } from '../Alert';
+import { Alert, AlertType } from '@/components/Alert';
+import TimelineItem from '@/components/TimelineItem';
+import { MdMenu } from 'react-icons/md';
 
 const Content = () => {
   return (
@@ -25,6 +28,9 @@ const Content = () => {
           Este es un ejemplo de documentación.
         </span>
         <br />
+        <div className=''>
+          <TimelineItem />
+        </div>
         <br />
         <div className=''>
           <Card1 />
@@ -73,9 +79,9 @@ const Content = () => {
         <br />
         <Switch />
         <div className='flex flex-wrap justify-center gap-5'>
-          <HamburgerMenuIcon type={IconType.FULL} size={16} />
-          <HamburgerMenuIcon type={IconType.OUTLINE} size={16} />
-          <HamburgerMenuIcon type={IconType.BORDERLESS} size={16} />
+          <Icon icon={MdMenu} type={IconType.FULL} size='30px' />
+          <Icon icon={MdMenu} type={IconType.OUTLINE} size='30px' />
+          <Icon icon={MdMenu} type={IconType.BORDERLESS} size='30px' />
         </div>
         <br />
         <div className=''>
