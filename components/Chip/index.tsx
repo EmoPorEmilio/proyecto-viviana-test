@@ -1,16 +1,14 @@
-import { sen } from '@/app/fonts';
-
 export enum ChipType {
   Primary = 'primary',
 }
 
-interface ButtonProps {
-  onClick: Function;
+interface ChipProps {
+  onClick?: Function;
   type: ChipType;
-  children: React.ReactNode;
+  text: string;
 }
 
-export const Chip = ({ onClick, type, children }: ButtonProps) => {
+export const Chip = ({ onClick, type, text }: ChipProps) => {
   const chipnDynamicClass = () => {
     switch (type) {
       case ChipType.Primary:
@@ -21,8 +19,8 @@ export const Chip = ({ onClick, type, children }: ButtonProps) => {
   };
   return (
     <button
-      className={`  ${chipnDynamicClass()} w-auto rounded-full px-4  py-1 font-medium text-sm tracking-wide`}>
-      {children}
+      className={`${chipnDynamicClass()} flex justify-center items-center h-6 w-auto rounded-full px-4  py-1 font-medium text-sm tracking-wide`}>
+      <span>{text}</span>
     </button>
   );
 };

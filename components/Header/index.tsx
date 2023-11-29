@@ -8,7 +8,7 @@ const Header = () => (
     </Link>
     <span className='md:pl-8 pl-1 text-[34px] subpixel-antialiased font-light text-primary-700 shadow-none flex items-center'>
       PROYECTO
-      <span className=' text-primary-500  font-black drop-shadow-title'>
+      <span className=' text-primary-500  font-black drop-shadow-logo'>
         VIVIANA
       </span>
     </span>

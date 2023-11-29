@@ -41,13 +41,7 @@ const Dialog = () => (
     </div>
     <div className='relative bottom-4 right-4 md:w-[500px]'>
       <div className='flex flex-row justify-end gap-2 pr-4'>
-        <Chip
-          type={ChipType.Primary}
-          onClick={() => {
-            console.log('test1');
-          }}>
-          <span>Fiesta</span>
-        </Chip>
+        <Chip type={ChipType.Primary} text='Fiesta' />
       </div>
     </div>
   </div>

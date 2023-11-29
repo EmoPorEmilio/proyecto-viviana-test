@@ -35,7 +35,7 @@ const config: Config = {
         'danger-600': '#9D5555',
       },
       dropShadow: {
-        title: '2px 1px #DF5C9A',
+        logo: '2px 1px #DF5C9A',
         'title-primary': '0 4px #58748B',
       },
       boxShadow: {
