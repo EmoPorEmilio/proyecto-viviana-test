@@ -34,14 +34,14 @@ export const Card1 = () => (
           <div className='flex items-center gap-[2px]'>
             <MdAlternateEmail className='text-primary-700' />
             &nbsp;
-            <span className='font-medium text-primary-200'>TaylorSwift</span>
+            <span className='font-semibold text-primary-300'>TaylorSwift</span>
           </div>
         </div>
         <div className='flex w-full h-full flex-1 justify-start items-center '>
           <div className='flex items-center gap-[2px]'>
             <MdOutlineAccessTime className='text-primary-700' />
             &nbsp;
-            <span className='font-medium text-accent-300'>
+            <span className='font-semibold text-accent-200'>
               <b>2</b> días
             </span>
           </div>
