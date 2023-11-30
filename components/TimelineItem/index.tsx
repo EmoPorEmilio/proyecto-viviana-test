@@ -7,12 +7,12 @@ import { sen, jost } from '@/app/fonts';
 const TimelineItem = () => {
   return (
     <div className='inline-flex flex-col w-auto gap-5 border border-primary-700 rounded-2xl p-5 bg-bg-200 hover:bg-bg-300'>
-      <div className='flex justify-center items-center gap-3'>
+      <div className='flex justify-around items-center gap-3'>
         <Avatar />
         <Icon icon={MdFavorite} type={IconType.FULL} size='30px' />
         <Avatar />
       </div>
-      <div className='flex justify-center items-center gap-3'>
+      <div className='flex justify-center items-center gap-3 text-center'>
         <span className={`${sen.className} text-primary-300 font-light`}>
           <span className={`${jost.className} font-semibold text-accent-200`}>
             emoporemilio

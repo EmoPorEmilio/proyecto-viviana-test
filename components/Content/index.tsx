@@ -1,7 +1,7 @@
 'use client';
 import LateralNav from '@/components/Lateral-Nav';
 import Dialog from '@/components/Chip/Dialog';
-import { Card1, Card2 } from '@/components/Card';
+import Card from '@/components/Card';
 import Badge from '@/components/Badge';
 import { sen } from '@/app/fonts';
 import { Button, ButtonType } from '@/components/Button';
@@ -11,6 +11,7 @@ import { IconType } from '../types';
 import { Alert, AlertType } from '@/components/Alert';
 import TimelineItem from '@/components/TimelineItem';
 import { MdMenu } from 'react-icons/md';
+import CardCarousel from '@/components/CardCarousel';
 
 const Content = () => {
   return (
@@ -31,10 +32,10 @@ const Content = () => {
         <div className=''>
           <TimelineItem />
         </div>
-        <br />
-        <div className=''>
-          <Card1 />
+        <div className='w-[400px]'>
+          <CardCarousel />
         </div>
+        <br />
         <br />
         <Dialog />
         <div className='flex flex-wrap justify-center gap-5'>

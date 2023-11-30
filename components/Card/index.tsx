@@ -4,7 +4,7 @@ import { Chip, ChipType } from '@/components/Chip';
 import { MdOutlineAccessTime, MdAlternateEmail } from 'react-icons/md';
 import { HiFire } from 'react-icons/hi';
 
-export const Card1 = () => (
+export const Card = () => (
   <div className='flex flex-col justify-center items-center w-[240px] h-[250px] rounded-3xl border-b border-accent-500'>
     <div className='w-full h-full rounded-t-3xl'>
       <div className='relative border-accent-200 w-full h-full bg-white rounded-t-3xl'>
@@ -34,14 +34,14 @@ export const Card1 = () => (
           <div className='flex items-center gap-[2px]'>
             <MdAlternateEmail className='text-primary-700' />
             &nbsp;
-            <span className='font-semibold text-primary-300'>TaylorSwift</span>
+            <span className='font-semibold text-accent-200 '>taylorswift</span>
           </div>
         </div>
         <div className='flex w-full h-full flex-1 justify-start items-center '>
           <div className='flex items-center gap-[2px]'>
             <MdOutlineAccessTime className='text-primary-700' />
             &nbsp;
-            <span className='font-semibold text-accent-200'>
+            <span className='font-semibold text-primary-300 '>
               <b>2</b> días
             </span>
           </div>
@@ -51,11 +51,4 @@ export const Card1 = () => (
   </div>
 );
 
-export const Card2 = () => (
-  <div className='w-[240px] h-[300px] bg-bg-300 rounded-3xl border-b border-accent-500'>
-    <div className='w-full h-[200px] bg-bg-200 rounded-t-3xl p-3'>
-      <div className='w-full h-full bg-white bg-opacity-20 rounded-3xl'></div>
-    </div>
-    <div className='w-full h-[99px] border-t-2 border-accent-200 bg-bg-300 rounded-b-3xl'></div>
-  </div>
-);
+export default Card;
