@@ -13,7 +13,7 @@ const CalendarCard = () => (
           <Chip text="Fiesta" type={ChipType.Primary}></Chip>
         </div>
       </div>
-      <div className="flex-10 flex h-full flex-col items-end justify-center pb-3 pr-5">
+      <div className="flex-10 flex h-full flex-col items-end justify-center pb-3 pr-5 pt-2">
         <div className="flex flex-1">
           <span className="text-lg font-semibold text-white drop-shadow-title-card">
             Eventos de Taylor todo 2023
