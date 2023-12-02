@@ -3,7 +3,7 @@ import EventImage from "./event.jpg";
 import FireImage from "./fire.png";
 import { MdOutlineAccessTime, MdAlternateEmail } from "react-icons/md";
 
-export const Card = () => (
+export const CardEvent = () => (
   <div className="flex h-[250px] w-[240px] flex-col items-center justify-center rounded-3xl border-b border-accent-500">
     <div className="h-full w-full rounded-t-3xl">
       <div className="relative h-full w-full rounded-t-3xl border-accent-200 bg-white">
@@ -58,4 +58,4 @@ export const Card = () => (
   </div>
 );
 
-export default Card;
+export default CardEvent;

@@ -1,8 +1,8 @@
-import Card from '@/components/Card';
+import CardEvent from "@/components/CardEvent";
 
 const CardCarousel = () => (
   <>
-    <Card />
+    <CardEvent />
   </>
 );
 export default CardCarousel;

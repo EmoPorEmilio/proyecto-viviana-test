@@ -21,9 +21,13 @@ const CalendarCard = () => (
         </div>
         <div className="flex flex-1">
           <span className="text-base font-normal text-primary-500">
-            seguida por <span className="text-accent-200">taylorswift</span>,
-            <span className="text-accent-200"> emoporemilio </span> y
-            <span className="text-accent-200"> 2 más</span>
+            seguida por{" "}
+            <span className="font-semibold text-accent-200">taylorswift</span>,
+            <span className="font-semibold text-accent-200">
+              {" "}
+              emoporemilio{" "}
+            </span>{" "}
+            y<span className="font-semibold text-accent-200"> 2 más</span>
           </span>
         </div>
       </div>
