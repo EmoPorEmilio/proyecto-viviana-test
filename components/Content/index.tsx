@@ -1,6 +1,7 @@
 "use client";
 import LateralNav from "@/components/Lateral-Nav";
-import Dialog from "@/components/Chip/Dialog";
+import Dialog from "@/components/Dialog";
+import ProfileHead from "@/components/ProfileHead";
 import Badge from "@/components/Badge";
 import { sen } from "@/app/fonts";
 import { Button, ButtonType } from "@/components/Button";
@@ -47,6 +48,7 @@ const Content = () => {
         </div>
         <br />
         <Dialog />
+        <ProfileHead />
         <div className="flex flex-wrap justify-center gap-5">
           <Button
             type={ButtonType.Primary}
