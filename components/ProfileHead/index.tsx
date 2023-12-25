@@ -4,9 +4,9 @@ import { Avatar, AvatarSizes } from "../Avatar";
 
 const ProfileHead = () => (
   <div className="flex h-[220px] flex-col md:w-[540px]">
-    <div className="relative left-[-8px] top-10">
+    <div className="relative left-[-8px] top-9">
       <div className="flex items-start">
-        <Avatar />
+        <Avatar size={AvatarSizes.Medium} />
         <span className="block h-min bg-gradient-to-b from-primary-100 to-primary-500	bg-clip-text text-4xl font-extrabold text-transparent">
           EmoPorEmilio
         </span>

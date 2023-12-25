@@ -1,23 +1,23 @@
-import { Icon } from '@/components/Icon';
-import { MdFavorite } from 'react-icons/md';
-import { IconType } from '../types';
-import Avatar from '@/components/Avatar';
-import { sen, jost } from '@/app/fonts';
+import { Icon } from "@/components/Icon";
+import { MdFavorite } from "react-icons/md";
+import { IconType } from "../types";
+import { Avatar } from "@/components/Avatar";
+import { sen, jost } from "@/app/fonts";
 
 const TimelineItem = () => {
   return (
-    <div className='inline-flex flex-col w-auto gap-5 border border-primary-700 rounded-2xl p-5 bg-bg-200 hover:bg-bg-300'>
-      <div className='flex justify-around items-center gap-3'>
+    <div className="inline-flex w-auto flex-col gap-5 rounded-2xl border border-primary-700 bg-bg-200 p-5 hover:bg-bg-300">
+      <div className="flex items-center justify-around gap-3">
         <Avatar />
-        <Icon icon={MdFavorite} type={IconType.FULL} size='30px' />
+        <Icon icon={MdFavorite} type={IconType.FULL} size="30px" />
         <Avatar />
       </div>
-      <div className='flex justify-center items-center gap-3 text-center'>
-        <span className={`${sen.className} text-primary-300 font-light`}>
+      <div className="flex items-center justify-center gap-3 text-center">
+        <span className={`${sen.className} font-light text-primary-300`}>
           <span className={`${jost.className} font-semibold text-accent-200`}>
             emoporemilio
-          </span>{' '}
-          ha empezado a seguir a{' '}
+          </span>{" "}
+          ha empezado a seguir a{" "}
           <span className={`${jost.className}  font-semibold text-accent-200`}>
             taylorswift
           </span>

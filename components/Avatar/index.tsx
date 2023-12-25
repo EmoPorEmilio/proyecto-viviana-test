@@ -8,12 +8,12 @@ export enum AvatarSizes {
 }
 
 interface AvatarProps {
-  size: AvatarSizes;
+  size?: AvatarSizes;
 }
 
 export const Avatar = ({ size = AvatarSizes.Small }: AvatarProps) => {
   const smallSize = "h-20 w-20";
-  const mediumSize = "h-32 w-32";
+  const mediumSize = "h-24 w-24";
   const largeSize = "h-48 w-48";
   const avatarSize = () => {
     switch (size) {
@@ -27,7 +27,7 @@ export const Avatar = ({ size = AvatarSizes.Small }: AvatarProps) => {
   };
   return (
     <div
-      className={`relative ${avatarSize()} overflow-hidden  rounded-full border-2 border-accent-200`}
+      className={`h- relative ${avatarSize()} overflow-hidden  rounded-full border-2 border-accent-200`}
     >
       <Image alt="avatar" src={AvatarSRC} fill={true} />
     </div>
