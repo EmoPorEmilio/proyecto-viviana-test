@@ -33,7 +33,7 @@ const Content = () => {
         </span>
         <br />
         <div className="">
-          <TimelineItem />
+          <ProfileHead />
         </div>
         <div className="w-[400px]">
           <CardCarousel />
@@ -46,9 +46,9 @@ const Content = () => {
         <div className="w-[400px]">
           <Conversation />
         </div>
+        <TimelineItem />
         <br />
         <Dialog />
-        <ProfileHead />
         <div className="flex flex-wrap justify-center gap-5">
           <Button
             type={ButtonType.Primary}

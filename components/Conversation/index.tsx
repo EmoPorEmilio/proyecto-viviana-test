@@ -1,4 +1,4 @@
-import Avatar from "@/components/Avatar";
+import { Avatar } from "@/components/Avatar";
 
 const Conversation = () => (
   <div className="flex h-[100px] w-[500px] items-center rounded-s-xl p-2">
