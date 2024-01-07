@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 export default function Calendar() {
   return (
     <div className="flex h-[100dvh] w-[100dvw] flex-col bg-bg-400">

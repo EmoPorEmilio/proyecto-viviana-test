@@ -1,6 +1,8 @@
 import { sen } from "@/app/fonts";
 import Link from "next/link";
 
+export const runtime = 'edge';
+
 export default function Menu() {
   return (
     <div className="flex h-[100dvh] w-[100dvw] flex-col">

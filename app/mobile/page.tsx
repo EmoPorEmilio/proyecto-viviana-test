@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 export default function Mobile() {
   return (
     <div className='flex flex-col h-[100dvh] w-[100dvw] bg-bg-400'>
