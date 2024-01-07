@@ -1,15 +1,24 @@
 import { Icon } from '@/components/Icon';
 import { MdMenu } from 'react-icons/md';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => (
   <nav className='flex items-center bg-bg-400 h-[70px] border-bottom border-solid border-b-4 border-accent-500'>
-    <span className='md:pl-8 pl-1 text-[34px] subpixel-antialiased font-light text-primary-700 shadow-none flex items-center'>
+    <div className='md:pl-8 pl-1 flex items-center'>
+      <Image
+        src='/Logo.png'
+        width={328}
+        height={42}
+        alt='logo'
+        unoptimized/>
+      </div>
+      {/*  <span className='md:pl-8 pl-1 text-[34px] subpixel-antialiased font-light text-primary-700 shadow-none flex items-center'>
       PROYECTO
-      <span className=' text-primary-500  font-black drop-shadow-logo'>
+      <span className='z-10 text-primary-500  font-black drop-shadow-logo'>
         VIVIANA
       </span>
-    </span>
+    </span> */}
 
     <Link
       href='/menu'
