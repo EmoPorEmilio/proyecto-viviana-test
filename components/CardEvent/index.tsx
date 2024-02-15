@@ -1,6 +1,6 @@
 import Image from "next/image";
 import EventImage from "./event.jpg";
-import FireImage from "./fire.png";
+import FireImage from "./Fire_T.gif";
 import { MdOutlineAccessTime, MdAlternateEmail } from "react-icons/md";
 
 export const CardEvent = () => (
@@ -9,13 +9,13 @@ export const CardEvent = () => (
       <div className="relative h-full w-full rounded-t-3xl border-accent-200 bg-white">
         <div className="absolute right-[-15px] z-20 h-full w-9 bg-opacity-20">
           <div className="flex h-full w-full flex-col items-center">
-            <div className="relative h-12 w-12">
+            <div className="relative h-8 w-8">
               <Image src={FireImage} alt="fire" fill={true} />
             </div>
-            <div className="relative h-12 w-12">
+            <div className="relative h-8 w-8">
               <Image src={FireImage} alt="fire" fill={true} />
             </div>
-            <div className="relative h-12 w-12">
+            <div className="relative h-8 w-8">
               <Image src={FireImage} alt="fire" fill={true} />
             </div>
           </div>

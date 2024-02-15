@@ -1,23 +1,26 @@
 import Link from "next/link";
 import Item from "./Item";
+import { usePathname } from "next/navigation";
 
 interface LateralNavProps {
   transparent?: boolean;
 }
 
 const LateralNav = ({ transparent = false }: LateralNavProps) => {
+  const pathname = usePathname()
+  console.log(pathname)
   const bgColor = transparent ? "" : "bg-bg-200";
   return (
     <div
       className={`hidden w-[300px] md:block ${bgColor} m-0 border-r border-primary-600 p-3`}
     >
-      <Item title="Comenzando"></Item>
+      <Item title="Componentes"></Item>
       <div className="flex h-full">
         <div className="h-5 w-1 bg-accent-300"></div>
-        <div className={`flex h-full flex-1 flex-col pl-4`}>
-          <span className="font-medium text-primary-300 underline underline-offset-4">
-            ¿Qué es Axum?
-          </span>
+        <ul className={`flex h-full flex-1 flex-col pl-4`}>
+          <li>
+            <Link href="/boton" className="font-medium text-primary-300 underline underline-offset-4">Botón</Link>
+          </li>
           <span className="font-normal text-gray-200">Test</span>
           <span className="font-normal text-gray-200">Test</span>
           <span className="font-normal text-gray-200">Test</span>
@@ -39,7 +42,7 @@ const LateralNav = ({ transparent = false }: LateralNavProps) => {
           >
             Mobile
           </Link>
-        </div>
+        </ul>
       </div>
     </div>
   );
