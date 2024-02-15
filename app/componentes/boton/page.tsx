@@ -1,5 +1,4 @@
 "use client";
-import LateralNav from "@/components/Lateral-Nav";
 import Dialog from "@/components/Dialog";
 import ProfileHead from "@/components/ProfileHead";
 import Badge from "@/components/Badge";
@@ -7,7 +6,7 @@ import { sen } from "@/app/fonts";
 import { Button, ButtonType } from "@/components/Button";
 import Switch from "@/components/Switch";
 import { Icon } from "@/components/Icon";
-import { IconType } from "../types";
+import { IconType } from "@/components/types";
 import { Alert, AlertType } from "@/components/Alert";
 import TimelineItem from "@/components/TimelineItem";
 import { MdMenu } from "react-icons/md";
@@ -15,10 +14,11 @@ import CardCarousel from "@/components/CardCarousel";
 import CalendarCard from "@/components/CalendarCard";
 import Conversation from "@/components/Conversation";
 
-const Content = () => {
+export const runtime = 'edge';
+
+export default function Home() {
   return (
-    <div className="flex h-full bg-bg-100">
-      <LateralNav />
+    <>
       <div className={"flex flex-1 flex-col p-4 md:p-9"}>
         <h1
           className={
@@ -123,9 +123,6 @@ const Content = () => {
           <Badge />
         </div>
       </div>
-      <LateralNav transparent={true} />
-    </div>
+    </>
   );
-};
-
-export default Content;
+}
