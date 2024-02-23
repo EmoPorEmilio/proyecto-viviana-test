@@ -1,6 +1,6 @@
 import Image from "next/image";
 import EventImage from "./event.jpg";
-import FireImage from "./Fire_T.gif";
+import FireImage from "./Fire.gif";
 import { MdOutlineAccessTime, MdAlternateEmail } from "react-icons/md";
 
 export const CardEvent = () => (
