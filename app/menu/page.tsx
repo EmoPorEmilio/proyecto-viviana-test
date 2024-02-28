@@ -1,4 +1,4 @@
-import { sen } from "@/app/fonts";
+import { sen } from "@/components/fonts";
 import Link from "next/link";
 
 export const runtime = 'edge';

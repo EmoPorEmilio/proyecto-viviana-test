@@ -2,7 +2,7 @@
 import Dialog from "@/components/Dialog";
 import ProfileHead from "@/components/ProfileHead";
 import Badge from "@/components/Badge";
-import { sen } from "@/app/fonts";
+import { sen } from "@/components/fonts";
 import { Button, ButtonType } from "@/components/Button";
 import Switch from "@/components/Switch";
 import { Icon } from "@/components/Icon";

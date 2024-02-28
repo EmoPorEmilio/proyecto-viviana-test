@@ -1,4 +1,4 @@
-import { sen } from "@/app/fonts";
+import { sen } from "@/components/fonts";
 import { Chip, ChipType } from "@/components/Chip";
 import { Avatar, AvatarSizes } from "../Avatar";
 

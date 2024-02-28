@@ -1,4 +1,4 @@
-import { sen } from "@/app/fonts";
+import { sen } from "@/components/fonts";
 import { Button, ButtonType } from "@/components/Button";
 import { Chip, ChipType } from "@/components/Chip";
 

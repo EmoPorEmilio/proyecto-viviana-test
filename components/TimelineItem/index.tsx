@@ -2,7 +2,7 @@ import { Icon } from "@/components/Icon";
 import { MdFavorite } from "react-icons/md";
 import { IconType } from "../types";
 import { Avatar } from "@/components/Avatar";
-import { sen, jost } from "@/app/fonts";
+import { sen, jost } from "@/components/fonts";
 
 const TimelineItem = () => {
   return (
