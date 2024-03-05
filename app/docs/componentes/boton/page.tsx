@@ -14,7 +14,7 @@ import CardCarousel from "@/components/CardCarousel";
 import CalendarCard from "@/components/CalendarCard";
 import Conversation from "@/components/Conversation";
 
-export const runtime = 'edge';
+export const runtime = "edge";
 
 export default function Home() {
   return (
@@ -25,30 +25,13 @@ export default function Home() {
             "text-4xl font-semibold text-primary-100 drop-shadow-title-primary"
           }
         >
-          ¿Qué es Axum?
+          Botón
         </h1>
         <br />
         <span className={`${sen.className} text-lg text-primary-300`}>
-          Este es un ejemplo de documentación.
+          El botón viene en 5 variantes.
         </span>
         <br />
-        <div className="">
-          <ProfileHead />
-        </div>
-        <div className="w-[400px]">
-          <CardCarousel />
-        </div>
-        <br />
-
-        <div className="w-[400px]">
-          <CalendarCard />
-        </div>
-        <div className="w-[400px]">
-          <Conversation />
-        </div>
-        <TimelineItem />
-        <br />
-        <Dialog />
         <div className="flex flex-wrap justify-center gap-5">
           <Button
             type={ButtonType.Primary}
@@ -92,35 +75,6 @@ export default function Home() {
               BOTÓN LINK
             </a>
           </Button>
-        </div>
-        <br />
-        <Switch />
-        <div className="flex flex-wrap justify-center gap-5">
-          <Icon icon={MdMenu} type={IconType.FULL} size="30px" />
-          <Icon icon={MdMenu} type={IconType.OUTLINE} size="30px" />
-          <Icon icon={MdMenu} type={IconType.BORDERLESS} size="30px" />
-        </div>
-        <br />
-        <div className="">
-          <Alert type={AlertType.Primary} onClick={() => console.log("test")}>
-            Esto es un ejemplo de alerta.
-          </Alert>
-          <br />
-          <Alert type={AlertType.Secondary} onClick={() => console.log("test")}>
-            Esto es un ejemplo de alerta.
-          </Alert>
-          <br />
-          <Alert type={AlertType.Danger} onClick={() => console.log("test")}>
-            Esto es un ejemplo de alerta.
-          </Alert>
-          <br />
-          <Alert type={AlertType.Success} onClick={() => console.log("test")}>
-            Esto es un ejemplo de alerta.
-          </Alert>
-        </div>
-        <br />
-        <div className="">
-          <Badge />
         </div>
       </div>
     </>

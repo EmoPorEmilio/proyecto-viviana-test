@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Link from "next/link";
 import Item from "./Item";
 import { usePathname } from "next/navigation";
@@ -8,8 +8,8 @@ interface LateralNavProps {
 }
 
 const LateralNav = ({ transparent = false }: LateralNavProps) => {
-  const pathname = usePathname()
-  console.log(pathname)
+  const pathname = usePathname();
+  console.log(pathname);
   const bgColor = transparent ? "" : "bg-bg-200";
   return (
     <div
@@ -20,7 +20,12 @@ const LateralNav = ({ transparent = false }: LateralNavProps) => {
         <div className="h-5 w-1 bg-accent-300"></div>
         <ul className={`flex h-full flex-1 flex-col pl-4`}>
           <li>
-            <Link href="/componentes/boton" className="font-medium text-primary-300 underline underline-offset-4">Botón</Link>
+            <Link
+              href="/docs/componentes/boton"
+              className="font-medium text-primary-300 underline underline-offset-4"
+            >
+              Botón
+            </Link>
           </li>
           <span className="font-normal text-gray-200">Test</span>
           <span className="font-normal text-gray-200">Test</span>
